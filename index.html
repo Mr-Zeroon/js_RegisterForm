@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Demo</title>
+  <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <div class="main">
+    <h1>Register form</h1>
+    <form class="form-register">
+      <input id="username" type="text" placeholder="Username"/>
+      <span class="error js-err-user-name"></span>
+      <br>
+      <input id="password" type="text" placeholder="password"/>
+      <br>
+      <input id="firstName" type="text" placeholder="firstName"/>
+      <br>
+      <input id="lastName" type="text" placeholder="lastName"/>
+      <br>
+      <input type="radio" id="male" name="gender" value="Nam">
+      <label for="male">Nam</label><br>
+      <input type="radio" id="female" name="gender" value="Nữ">
+      <label for="female">Nữ</label><br>
+      <button  type="submit">Submit</button>
+      <button class="js-btn-reset">Reset</button>
+    </form>
+    <table class="table">
+      <thead>
+        <tr class="table-main">
+          <th scope="col">UserName</th>
+          <th scope="col">PassWord</th>
+          <th scope="col">FirstName</th>
+          <th scope="col">LastName</th>
+          <th scope="col">Gender</th>
+          <th scope="col">Action</th>
+        </tr>
+      </thead>
+      <tbody class="js-result">
+        
+        
+      </tbody>
+    </table>
+  </div>
+  
+  <script src="./js/main.js"></script>
+</body>
+</html>

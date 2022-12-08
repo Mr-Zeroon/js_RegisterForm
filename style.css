@@ -1,0 +1,34 @@
+.main {
+    margin-top: 50px;
+    text-align: center;
+  }
+  
+  .error {
+    color: red;
+  }
+  .table{
+    width: 100%;
+    margin: 15px auto;
+    border-collapse: collapse;
+   
+  }
+  .table > thead{
+    background-color: crimson;
+  }
+  
+  .table th, table td {
+    border: 2spx solid white;
+  }
+  .table-main{
+    color: white;
+    background-color: black
+  }
+  .gender-male{
+    background-color: chartreuse;
+  }
+  .gender-female{
+    background-color: pink;
+  }
+  .gender-unknown{
+    background-color: purple;
+  }
